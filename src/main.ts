@@ -1,8 +1,8 @@
-import { createApp } from "vue";
-import App from "./app.vue";
-import router from "./router";
+import { createApp } from "vue"
+import App from "./App.vue"
+import router from "./router"
 import './assets/styles/reset.css'
-import pinia from "./store";
+import pinia from "./store"
 
 // 创建实例
 const app = createApp(App)
